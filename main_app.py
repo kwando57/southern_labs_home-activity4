@@ -16,7 +16,7 @@ def main():
     amount4 = random.randint(50, 500)
     amount5 = random.randint(50, 500)
 
-    transaction_amounts = [amount1, amount2, amount3, amount4, amount5]
+    transaction_amounts = amount1, amount2, amount3, amount4, amount5
 
     today = datetime.date.today()
 
